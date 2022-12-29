@@ -963,7 +963,7 @@ if __name__ == "__main__":
 
     if '-chisel' in sys.argv[1:]:
         make_chisel(instr_dict)
-        logging.info('inst.chisel generated successfully')
+        logging.info('inst.chisel.scala generated successfully')
 
     if '-spinalhdl' in sys.argv[1:]:
         make_chisel(instr_dict, True)
